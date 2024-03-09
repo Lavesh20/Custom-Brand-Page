@@ -1,18 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+
 const Navigation = () => {
   return (
     <div>
       <nav className='container'>
         
-          <div className='logo'><img src="public\images\brand_logo.png" alt="Nike" /></div>
+          <div className='logo'><img src="public\images\Adidas-logo.webp" alt="Nike" style={{width:150}}/></div>
         
         <ul>
-          <li><a href="/Home">Home</a></li>
-          <li><a href="/Store">Store</a></li>
-          <li><a href="/Contact">Contact</a></li>
-          <li><a href="About">About</a></li>
+        <li><Link to="/Home">Home</Link></li>
+          <li><Link to="/Store">Store</Link></li>
+          <li><Link to="/Contact">Contact</Link></li>
+          <li><Link to="/About">About</Link></li>
         </ul>
         <button>Login</button>
       </nav>

@@ -23,7 +23,7 @@ const Center = () => {
         </div>
       </div>
       <div className="hero-image">
-        <img src="public\images\shoe_image.png" alt="Shoes" />
+        <img src="public\images\9c643336b7971d71e959bfa21333828c.jpg" alt="Shoes" style={{borderRadius:50,}} />
       </div>
     </main>
   );
