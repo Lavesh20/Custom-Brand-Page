@@ -8,6 +8,7 @@ import Home from './component/Home'
 import Store from './component/Store'
 import About from './component/About'
 import Contact from './component/Contact'
+import LoginCard from './component/Login'
 
 
 function App() {
@@ -20,9 +21,10 @@ function App() {
          <Routes>
         <Route path='/' element = {<Home/>}/>
         <Route path="/home" element={<Home/>} />
-        <Route path="/store" element={<Store />} />
+        {/* <Route path="/store" element={<Store />} /> */}
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
+        <Route path='/login' element = {<LoginCard/>} />
       </Routes>
     </BrowserRouter>
    

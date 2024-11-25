@@ -16,11 +16,11 @@ const Navigation = () => {
         <ul>
 
           <li><Link to="/home">Home</Link></li>
-          <li><Link to="/store">Store</Link></li>
+          {/* <li><Link to="/store">Store</Link></li> */}
           <li><Link to="/contact">Contact</Link></li>
           <li><Link to="/about">About</Link></li>
         </ul>
-        <button>Login</button>
+        <button><Link to = '/login'>Login</Link></button>
       </nav>
       
      
