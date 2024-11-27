@@ -12,7 +12,7 @@ const Center = () => {
         </p>
         <div className="hero-button">
         <button>Shop Now</button>
-        <button className="secondary-button">Category</button>
+        <button className="secondary-button bg-red-400 font-semibold">Category</button>
         </div>
         <div className="shopping">
             <p>Also Available on</p>
