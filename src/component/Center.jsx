@@ -1,5 +1,3 @@
-import React from "react";
-
 const Center = () => {
   return (
     <main className="hero container">
@@ -11,19 +9,25 @@ const Center = () => {
           SHOES.
         </p>
         <div className="hero-button">
-        <button>Shop Now</button>
-        <button className="secondary-button bg-red-400 font-semibold">Category</button>
+          <button>Shop Now</button>
+          <button className="secondary-button bg-red-400 font-semibold">
+            Category
+          </button>
         </div>
         <div className="shopping">
-            <p>Also Available on</p>
+          <p>Also Available on</p>
         </div>
         <div className="brand-icons">
-           <img src="src\images\amazon.png" alt="Amazon" />
-           <img src="src\images\flipkart.png" alt="Flipcart" />
+          <img src="/images/amazon.png" alt="Amazon" />
+          <img src="/images/flipkart.png" alt="Flipkart" />
         </div>
       </div>
       <div className="hero-image">
-        <img src="src\images\9c643336b7971d71e959bfa21333828c.jpg" alt="Shoes" style={{borderRadius:50,}} />
+        <img
+          src="/images/9c643336b7971d71e959bfa21333828c.jpg"
+          alt="Shoes"
+          style={{ borderRadius: 50 }}
+        />
       </div>
     </main>
   );
