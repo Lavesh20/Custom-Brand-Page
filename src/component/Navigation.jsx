@@ -11,7 +11,7 @@ const Navigation = () => {
    
       <nav className='container'>
         <div className='logo'>
-         <a href="https://www.adidas.co.in/" target='_blank'> <img src="public/images/Adidas-logo.webp" alt="adidas" style={{ width: 150 }} /></a>
+         <a href="https://www.adidas.co.in/" target='_blank'> <img src="src/images/Adidas-logo.webp" alt="adidas" style={{ width: 150 }} /></a>
         </div>
         <ul>
 

@@ -18,12 +18,12 @@ const Center = () => {
             <p>Also Available on</p>
         </div>
         <div className="brand-icons">
-           <img src="public\images\amazon.png" alt="Amazon" />
-           <img src="public\images\flipkart.png" alt="Flipcart" />
+           <img src="src\images\amazon.png" alt="Amazon" />
+           <img src="src\images\flipkart.png" alt="Flipcart" />
         </div>
       </div>
       <div className="hero-image">
-        <img src="public\images\9c643336b7971d71e959bfa21333828c.jpg" alt="Shoes" style={{borderRadius:50,}} />
+        <img src="src\images\9c643336b7971d71e959bfa21333828c.jpg" alt="Shoes" style={{borderRadius:50,}} />
       </div>
     </main>
   );
