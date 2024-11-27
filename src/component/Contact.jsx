@@ -79,9 +79,9 @@ export default function ContactForm() {
               <span className="text-orange-500">📍</span> Shop Address
             </h3>
             <address className="not-italic text-gray-600 space-y-1">
-              <p>34/8, East Hukupara</p>
-              <p>Gifirtok, Sadan.</p>
-              <p>Country Name</p>
+              <p>24-A Barcelona Street</p>
+              <p>Barcelona</p>
+              <p>Spain</p>
             </address>
           </div>
           
@@ -103,7 +103,7 @@ export default function ContactForm() {
             </h3>
             <div className="text-gray-600 space-y-1">
               <p>Phone: +00 111 222 3333</p>
-              <p>Email: support@fruitkha.com</p>
+              <p>Email: support@footstore.com</p>
             </div>
           </div>
           
